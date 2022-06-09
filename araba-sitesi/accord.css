@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding: 0;;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerx{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#fff,#424242);
+  position: relative;
+  padding-left: 0%;
+  padding-top: 5%;
+  padding-inline-start: 3%;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  height: 160px;
+  position: absolute;
+  left: 10px;
+  top: -60px;
+}
+nav img{
+  width: 40px;
+  cursor: pointer;
+}
+.contentx{
+  max-width: 600px;
+  margin: 100px;
+}
+.contentx h1{
+  font-size:80px;
+}
+.contentx p{
+  max-width: 450px;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 40px 0;
+}
+.accord{
+  width: 55%;
+  position: absolute;
+  right: 70px;
+  bottom: 60px;
+  animation: run 2s linear 1;
+}
+.bilgi{
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 50px;
+  left:0;
+}
+.bilgi div{
+  margin: 0 20px;
+}
+.bilgi div h2{
+  font-size: 44px;
+  font-weight: 400;
+}
+.bilgi .cizgi{
+  flex: 1;
+  background: black;
+  height: 4px;
+}
+.links .hc2{
+  position: relative;
+  top: -100px;
+  left: -75px;
+  font-size: 32px;
+  font-style: italic;
+  margin-left: 5%;
+
+  
+}
+.links .ha2{
+  position: relative;
+  top: -100px;
+  left: -75px;
+  font-size: 32px;
+  font-style: italic;
+  margin-inline-start: 190px;
+  margin-top: -42px;
+  
+}
+.links .g{
+  position: relative;
+  top: -101px;
+  left: -78px;
+  font-size: 32px;
+  font-style: italic;
+  margin-inline-start: 397px;
+  margin-top: -42px;
+}
+.hc2 ul{
+  flex:1;
+  text-align: left;
+}
+.hc2 ul li{
+  display: inline-block;
+  margin: -10px -20px;
+}
+.hc2 ul li a {
+  text-decoration: dashed;
+  color: #424242;
+}
+.ha2 ul{
+  flex:1;
+  text-align: left;
+}
+.ha2 ul li{
+  display: inline-block;
+  margin: -210vh 65px;
+}
+.ha2 ul li a{
+  text-decoration: none;
+  color: #424242;
+}
+.g ul{
+  flex:1;
+  text-align: left;
+}
+.g ul li{
+  display: inline-block;
+  margin: -210vh 65px;
+}
+.g ul li a{
+  text-decoration: none;
+  color: #424242;
+}
+@keyframes run{
+  0%{
+    transform: translate(-100px,-100px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}

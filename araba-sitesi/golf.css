@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerg{
+  width:100%;
+  height: 100vh;
+  background: linear-gradient(#fff,#424242);
+  position: relative;
+  padding-left: 0%;
+  padding-top: -100px;
+  padding-inline-start: -10px;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  height: 160px;
+  position: absolute;
+  left: 10px;
+  top: -60px;
+}
+nav img{
+  width: 40px;
+  cursor: pointer;
+}
+.contentg{
+  max-width: 600px;
+  margin: 100px;
+}
+.contentg h1{
+  font-size: 80px;
+}
+.contentg p{
+  max-width: 450px;
+  color: black ;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 40px 0;
+}
+.golf {
+  width: 55%;
+  position: absolute;
+  right: 70px;
+  bottom: 60px;
+  animation: run 2s linear 1;
+}
+.infog{
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  color: rgb(0,0,0);
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+}
+.infog div{
+  margin: 0 20px;
+}
+.infog div h2{
+  font-size: 44px;
+  font-weight: 400;
+}
+.infog .lineg{
+  flex: 1;
+  background: black;
+  height: 4px;
+}
+.linkg .hc3{
+  position: relative;
+  left: -10px;
+  font-size: 32px;
+  font-style: italic;
+  margin-left: 5%;
+
+  
+}
+.linkg .ha3{
+  position: relative;
+  left: -10px;
+  font-size: 32px;
+  font-style: italic;
+  margin-inline-start: 190px;
+  margin-top: -42px;
+}
+.linkg .g{
+  position: relative;
+  left: -10px;
+  top: -1.5px;
+  font-size: 32px;
+  font-style: italic;
+  margin-inline-start: 396px;
+  margin-top: -42px;
+}
+.hc3 ul{
+  flex:1;
+  text-align: left;
+}
+.hc3 ul li{
+  display: inline-block;
+  margin: -10px -20px;
+}
+.hc3 ul li a {
+  text-decoration: dashed;
+  color: #424242;
+}
+.ha3 ul{
+  flex:1;
+  text-align: left;
+}
+.ha3 ul li{
+  display: inline-block;
+  margin: -210vh 65px;
+}
+.ha3 ul li a{
+  text-decoration: none;
+  color: #424242;
+}
+.g ul{
+  flex:1;
+  text-align: left;
+}
+.g ul li{
+  display: inline-block;
+  margin: -210vh 65px;
+}
+.g ul li a{
+  text-decoration: none;
+  color: #424242;
+}
+@keyframes run{
+  0%{
+    transform: translate(-100px,-100px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}
